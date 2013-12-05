@@ -1,4 +1,4 @@
-<?php if(!defined("8bit")) die("no primarry access!");
+<?php if(!defined("8bit")) die("no primary access!");
 
 $config = array
 (
