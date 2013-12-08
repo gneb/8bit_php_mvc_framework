@@ -1,15 +1,13 @@
-controller example:
-<code>
-<?php if(!defined("8bit")) die("no primarry access!");
+### Controller Example
 
-class main extends controller{
+```php
+if(!defined("8bit")) die("no primarry access!");
 
-    public function index()
-    {
+class main extends controller {
+
+    public function index() {
         $data['name'] = "stinky";
         $this->view->load("welcome",$data);
-
     }
-
-} 
-</code>
+}
+```
