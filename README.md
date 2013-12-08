@@ -1,5 +1,5 @@
 controller example:
-
+<code>
 <?php if(!defined("8bit")) die("no primarry access!");
 
 class main extends controller{
@@ -12,3 +12,4 @@ class main extends controller{
     }
 
 } 
+</code>
